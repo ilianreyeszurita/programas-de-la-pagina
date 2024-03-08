@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(136, 136, 136);
+}
+.tarjeta{
+    width: 480px;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+            .tarjeta .cabecera {
+                display: flex;
+                padding: 10px;
+                border: rgb(141, 106, 106) solid;
+                border-radius: 10% 10% 0% 0%;
+            }
+
+            .tarjeta .cabecera img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                padding-right: 5px;
+
+            }
+
+            .tarjeta .cabecera span {
+                flex: 1;
+                text-align: center;
+                padding-top: 40px;
+                font-size: 60px;
+                font-weight: 600;
+                color: rgb(216, 104, 104);
+                border-bottom: solid 1px white;
+            }
+
+            .tarjeta .cuerpo {
+                text-align: justify;
+                font-size: 30px;
+                padding: 10px;
+                border: rgb(133, 108, 108) solid;
+            }
+
+            .tarjeta .pie {
+                border: rgb(150, 120, 120) solid;
+                border-radius: 0% 0% 10% 10%;
+            }
+
+            .tarjeta .pie button {
+                width: 100%;
+                padding: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                background-color: rgb(184, 137, 137);
+                color: rgb(255, 240, 240);
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding-right: 10px;
+                margin-right: 10px;
+                font-size: 25px;
+
+            }
+
+            .contenedor {
+                display: flex;
+                justify-content: center; /* Agregado para centrar el contenedor */
+
+            }
+
+            .colorfondoazul {
+                background-color: rgb(255, 0, 0);
+                color: aliceblue;
+            }
+
+            .colorfondovioleta {
+                background-color: rgb(231, 147, 147);
+                color: rgb(0, 0, 0);
+                filter: blur(0.5px);
+
+            }
+
+            .colorfondoazulclaro {
+                background-color: rgb(206, 144, 144);
+                color: black;
+
+            }
+
+            .alinearcentro {
+                justify-content: center;
+            }
